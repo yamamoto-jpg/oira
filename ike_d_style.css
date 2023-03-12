@@ -1,0 +1,287 @@
+.body{
+    background: #F1FFDD;
+}
+
+.headerlnner{
+    background: rgba(255, 254, 254, 0);
+    width: 100%;
+    height: 75px;
+    /*固定*/position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:3;
+}
+.headerlnner ul li{
+    display: inline-block;
+    padding: 0 30px;
+    list-style: none;
+} 
+.contactButton{
+    text-align: center;
+    background: #49A355;
+    color: aliceblue;
+    width:200px;
+    height:50px;
+    display: inline-block;
+    border-radius: 50px;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 15px;
+    transform: 700ms;
+}
+.contactButton:hover{
+    background: #D3FD7A;
+    color: black;
+}
+.kuuhaku{
+    width:100%;
+    height:75px;
+}
+.mainpic{
+    text-align: center;
+    width:100%;
+    height: 300px;
+}
+.pic_yoko{
+    text-align: center;
+    vertical-align: middle;
+}
+.pic_yoko li{
+    display: inline-block;
+}
+.pic_2yoko{
+    text-align: center;
+}
+.pic_2yoko li{
+    display: inline-block;
+}
+.topbutton{
+    text-align: right;
+   position: fixed;
+   left: 50px;
+   bottom: 50px;
+}
+.top_contactButton{
+    text-align: center;
+    background: #49A355;
+    color: aliceblue;
+    width:50px;
+    height:50px;
+    display: inline-block;
+    border-radius: 90px;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 15px;
+    transform: 1ms;
+}
+.top_contactButton:hover{
+    background: #D3FD7A;
+    color: black;
+    transform: scale(1.5,1.5);
+}
+.menyu_contactButton{
+    text-align: center;
+    background: #78dc85;
+    color: rgb(0, 0, 0);
+    width:50px;
+    height:50px;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 15px;
+    transform: 1ms;
+}
+.menyu_contactButton:hover{
+    background: #49A355;
+    color: rgb(255, 255, 255);
+}
+.menyu{
+    position: fixed;
+    text-align: right;
+    right: 50px;
+    bottom:50px;
+}
+.toiawase{
+    position: fixed;
+    text-align: right;
+    right: 50px;
+    bottom:110px;
+}
+.toiawase_contactButton{
+    text-align: center;
+    vertical-align: middle;
+    background: #78dc85;
+    color: rgb(0, 0, 0);
+    width:50px;
+    height:50px;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 15px;
+    transform: 800ms;
+}
+.toiawase_contactButton:hover{
+    background:#49A355;
+    color:rgb(255, 255, 255);
+}
+.sinnryakunagare{
+    text-align: center;
+    text-decoration: underline;
+}
+.sinnryaku{
+    text-align: center;
+}
+
+.sinnryaku .sinnryaku2  li{
+    
+    padding: 0 10px;
+    list-style: none;
+}
+/*.tuyomi{
+    text-align: center;
+    background: #d7ffc6;
+}
+.tuyomi_kazyou li{
+    list-style: none;
+}
+.tuyo{
+    background: white;
+    border-radius: 20px;
+}*/
+
+.nyuutai_contactButton{
+    text-align: center;
+    background: #78dc85;
+    color: rgb(0, 0, 0);
+    width:300px;
+    height:350px;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 15px;
+    transform:800ms;
+    justify-content: space-between;
+}
+.nyuutai_contactButton:hover{
+    background:#49A355;
+    color:rgb(255, 255, 255);
+    /*transform:scale(1.1,1.1);*/
+}
+.nyuutai{
+    background: #d7ffc6;
+    text-align: center;
+}
+.nyuutai .nyuutaibtn li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 60px;
+}
+.kuwasiku_contactButton{
+    text-align: center;
+    background: #ffffff;
+    color: rgb(94, 177, 95);
+    width:100px;
+    height:50px;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 15px;
+    transform:800ms;
+    justify-content: space-between; 
+    border: solid 2px rgb(74, 192, 74);
+}
+.kuwasiku_contactButton:hover{
+    background:#49A355;
+    color:rgb(255, 255, 255);
+    /*transform:scale(1.1,1.1);*/
+}
+.sinnryaku .dai_kero li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.footerlnner{
+    text-align: center;
+}
+.tuyomi{
+    text-align: center;
+}
+/*アニメーション*/
+.fadeAnimation {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 96%;
+    margin: 60vh auto;
+  }
+  
+  .fadeAnimation__item  {
+    width: 85%;
+    height: 250px;
+    background-color: rgba(255, 255, 0, 0.479);
+    margin: 0 auto 100px;
+    border-radius: 20px;
+  }
+  
+  .fadeAnimation__itemInner  {
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .fadeAnimation__text {
+    display: block;
+    writing-mode: horizontal-tb;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .fadeAnimation__text1 {
+    display: block;
+    writing-mode: horizontal-tb;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  /*------------------------------
+   アニメーション
+  ------------------------------*/
+  .fadeUp {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  .fadeUp.is-animated {
+    animation-name: fadeUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  @keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  .kyouzaituyomi{
+    text-decoration: underline;
+  }
+
+.kyoutyou{
+    text-decoration: underline;
+}
+.movie{
+    text-align: center;
+    text-decoration: underline;
+}
